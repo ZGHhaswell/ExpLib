@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExpLib
 {
-    interface ITest
+    public interface ITest
     {
+        void Hello();
     }
 }
