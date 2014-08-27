@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,7 @@ using System.ComponentModel;
 
 namespace BackCollector
 {
-    public class BackCollector<T>
+    public class BackCollector<T> where T:class 
     {
         public Queue<T> Queue { get; private set; }
 
@@ -43,13 +44,25 @@ namespace BackCollector
             {
                 lock(typeof(BackCollector<T>))
                 {
-                    if (Queue.Count != 0)
+                    if (Queue.Count > 0)
                     {
-                        var str = Queue.Dequeue();
-                        if (str != null)
+                        var list = new List<T>();
+                        for (int i = 0; i < 20 && Queue.Count > 0; i++)
                         {
-                            Console.WriteLine("Collect: " + str);
+                            var t = Queue.Dequeue();
+                            if (t != null)
+                            {
+                                list.Add(t);
+                            }
                         }
+                        foreach (var t in list)
+                        {
+                            if (t != null)
+                            {
+                                Console.WriteLine("Collect: " + t);
+                            }
+                        }
+                        
                     }
                 }
                 

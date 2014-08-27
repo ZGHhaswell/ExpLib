@@ -17,7 +17,7 @@ namespace BackCollector
             while(true)
             {
                 string readLine = Console.ReadLine();
-                backCollector.Queue.Enqueue(readLine);
+                backCollector.EnterQueue(readLine);
             }
         }
     }
