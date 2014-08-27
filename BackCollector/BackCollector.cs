@@ -45,11 +45,10 @@ namespace BackCollector
                 {
                     if (Queue.Count != 0)
                     {
-                        var str = Queue.Peek();
+                        var str = Queue.Dequeue();
                         if (str != null)
                         {
                             Console.WriteLine("Collect: " + str);
-                            Queue.Dequeue();
                         }
                     }
                 }
