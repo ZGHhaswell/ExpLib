@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>References\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="NPOI">
       <HintPath>References\NPOI.dll</HintPath>
     </Reference>
@@ -43,9 +40,6 @@
     </Reference>
     <Reference Include="NPOI.OpenXml4Net">
       <HintPath>References\NPOI.OpenXml4Net.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.OpenXmlFormats">
-      <HintPath>References\NPOI.OpenXmlFormats.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
