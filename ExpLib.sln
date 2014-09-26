@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackCollector", "BackCollec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelOp", "ExcelOp\ExcelOp.csproj", "{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard", "Wizard\Wizard.csproj", "{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Wizard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Wizard"
+        Title="MainWindow" Height="386" Width="604">
+    <Grid>
+        <Grid  Visibility="{Binding AVisibility, Mode=TwoWay}">
+            <controls:ControlA x:Name="ControlA" DataContext="{Binding ControlAViewModel}"></controls:ControlA>
+        </Grid>
+        <Grid Visibility="{Binding BVisibility, Mode=TwoWay}">
+            <controls:ControlB x:Name="ControlB" DataContext="{Binding ControlBViewModel}" ></controls:ControlB>
+        </Grid>
+        <Grid  Visibility="{Binding CVisibility, Mode=TwoWay}">
+            <controls:ControlC x:Name="ControlC" DataContext="{Binding ControlCViewModel}"></controls:ControlC>
+        </Grid>
+        
+    </Grid>
+</Window>
