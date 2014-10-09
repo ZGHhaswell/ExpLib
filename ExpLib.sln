@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelOp", "ExcelOp\ExcelOp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard", "Wizard\Wizard.csproj", "{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataEncrypt", "DataEncrypt\DataEncrypt.csproj", "{D510E28F-8010-47F6-B5AC-1361C0BCF926}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
