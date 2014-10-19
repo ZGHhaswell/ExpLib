@@ -11,13 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfHost", "WcfHost\WcfHost.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLib", "WcfLib\WcfLib.csproj", "{D293D9B6-7D42-4446-A7D2-AB9C67E8CDA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackCollector", "BackCollector\BackCollector.csproj", "{9BCC85CD-F37C-432C-BB66-AE56B3AF760A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelOp", "ExcelOp\ExcelOp.csproj", "{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard", "Wizard\Wizard.csproj", "{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataEncrypt", "DataEncrypt\DataEncrypt.csproj", "{D510E28F-8010-47F6-B5AC-1361C0BCF926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCoins", "CalCoins\CalCoins.csproj", "{C0109E00-1764-450C-B094-95191A2EB230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,22 +39,18 @@ Global
 		{D293D9B6-7D42-4446-A7D2-AB9C67E8CDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D293D9B6-7D42-4446-A7D2-AB9C67E8CDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D293D9B6-7D42-4446-A7D2-AB9C67E8CDA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BCC85CD-F37C-432C-BB66-AE56B3AF760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BCC85CD-F37C-432C-BB66-AE56B3AF760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BCC85CD-F37C-432C-BB66-AE56B3AF760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BCC85CD-F37C-432C-BB66-AE56B3AF760A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3161FEEE-1402-48C9-8DA7-3F4A9279A5A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A68F6E6D-DB7C-4552-8E0A-BF9ED8BE1BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D510E28F-8010-47F6-B5AC-1361C0BCF926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0109E00-1764-450C-B094-95191A2EB230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0109E00-1764-450C-B094-95191A2EB230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0109E00-1764-450C-B094-95191A2EB230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0109E00-1764-450C-B094-95191A2EB230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
