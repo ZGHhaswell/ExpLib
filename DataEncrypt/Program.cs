@@ -13,8 +13,8 @@ namespace DataEncrypt
             System.IFormatProvider format = new System.Globalization.CultureInfo("zh-cn", true);
 
             var content = DateTime.Now.ToString(format);
-            var code = EncryptService.DESEncrypt(content, "bejcxhds");
-            var content1 = EncryptService.DESDecrypt(code, "bejcxhds");
+            var code = EncryptService.DESEncrypt(content, "bejcxhdd");
+            var content1 = EncryptService.DESDecrypt(code, "bejcxhdd");
             Console.WriteLine(content1);
 
             Console.WriteLine(DateTime.Parse(content, format));
